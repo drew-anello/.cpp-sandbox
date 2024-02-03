@@ -9,10 +9,10 @@ I'm currently learning C+++ this is a repo that I'm using to learn the fundament
 2. Navigate to the directory
 3. Run the following command to compile the code
 ```bash
-g++ -o main main.cpp
+g++ -o ./<filename> <filename>.cpp
 ```
 4. Run the following command to execute the code
 ```bash
-./main
+./<filename>
 ```
 5. You should see the output of the code in the terminal.
