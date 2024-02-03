@@ -8,7 +8,12 @@ int main() {
 
   std::cin >> favoriteNumber;
 
-  std::cout << "That's my favorite number too!" << std::endl;
-
+  if (favoriteNumber > 100) {
+    std::cout << "That number is too high!" << std::endl;
+  } else if (favoriteNumber % 2) {
+    std::cout << "That number Isn't my favorite" << std::endl;
+  } else {
+    std::cout << "That's my favorite number too!" << std::endl;
+  }
   return 0;
 }
